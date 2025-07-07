@@ -84,7 +84,7 @@
       //stretch: 50%,
       //fallback: false,
       weight: "bold",
-      size: 35.86pt,
+      size: 34.86pt,
       //height: 
     )
 
