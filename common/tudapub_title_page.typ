@@ -33,7 +33,8 @@
   location: "Darmstadt",
 
   // array of the names of the reviewers
-  reviewer_names: ("Super Supervisor 1", "Super Supervisor 2"),
+  examiner: "X",
+  supervisor: "Y",
 
   // tuda logo, has to be a svg. E.g. image("PATH/TO/LOGO")
   logo_tuda: none,
@@ -117,10 +118,8 @@
           Date of submission: #submission_date
           \
           \
-          #for (i, reviewer_name) in reviewer_names.enumerate() [
-            #(i+1). Review: #reviewer_name
-            \
-          ]
+          Examiner: #examiner \ // TODO: Ask again
+          Supervisor: #supervisor \
           #v(-5pt) // spacing optional
           #location
         ],

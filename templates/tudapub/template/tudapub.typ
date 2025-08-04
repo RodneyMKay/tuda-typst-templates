@@ -44,7 +44,8 @@
   location: "Darmstadt",
 
   // array of the names of the reviewers
-  reviewer_names: ("SuperSupervisor 1", "SuperSupervisor 2"),
+  examiner: "X",
+  supervisor: "Y",
 
   // language for correct hyphenation
   language: "eng",
@@ -561,7 +562,8 @@
       author: author,
       date_of_submission: date_of_submission,
       location: location,
-      reviewer_names: reviewer_names,
+      examiner: examiner,
+      supervisor: supervisor,
       logo_tuda: logo_tuda,
       logo_institute: logo_institute,
       logo_institute_sizeing_type: logo_institute_sizeing_type,
