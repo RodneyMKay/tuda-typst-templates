@@ -451,7 +451,7 @@
   ///////////////////////////////////////
 
   // Configure equation numbering and spacing.
-  set math.equation(numbering: "(1.1.1)")
+  // set math.equation(numbering: "(1.1.1)")
   // typst0.12:  show math.equation: set block(spacing: 0.65em)
   show math.equation: set block(spacing: 0.9em)
   // equation numbering per chapter
